@@ -1,0 +1,91 @@
+site_name: CSC 584 — ICT for Development
+site_description: Lecture notes, diagrams, quizzes and exam practice for CSC 584 (ICT for Development)
+site_author: Course notes built from the CSC 584 courseware (OGUNTUNDE Toyin, Ph.D)
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/school
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.tabs.link
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/quiz.css
+
+extra_javascript:
+  - javascripts/quiz.js
+
+nav:
+  - Home: index.md
+  - Units:
+      - "1. Information & Communication Technology": unit-1-ict.md
+      - "2. Applications of ICT": unit-2-applications.md
+      - "3. Design–Reality Gap": unit-3-design-reality-gap.md
+      - "4. Development Informatics & Big Data": unit-4-development-informatics.md
+      - "5. Design Methodologies": unit-5-design-methodologies.md
+      - "6. Technologies Discussed": unit-6-technologies.md
+      - "7. ICT Standards & Theoretic Concerns": unit-7-standards-theory.md
+  - Exam Preparation:
+      - "Crash course": exam/crash-course.md
+      - "Exam technique": exam/exam-technique.md
+      - "Mock exam 1": exam/mock-exam-1.md
+      - "Mock exam 2": exam/mock-exam-2.md
+  - Glossary: glossary.md

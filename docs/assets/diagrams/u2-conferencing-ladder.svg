@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="Inter, Arial, sans-serif">
+  <title>Capability ladder: teleconferencing, video conferencing, tele-presence</title>
+  <!-- arrow -->
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5b6b7a"/>
+    </marker>
+  </defs>
+  <line x1="30" y1="440" x2="730" y2="440" stroke="#5b6b7a" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="380" y="462" font-size="13" fill="#5b6b7a" text-anchor="middle">more advanced · more technological features · stronger sense of "being there"</text>
+
+  <!-- Step 1: Teleconferencing -->
+  <rect x="30" y="250" width="225" height="180" rx="14" fill="#fff4e0" stroke="#d98a00" stroke-width="3"/>
+  <text x="142" y="280" font-size="18" font-weight="800" fill="#a86500" text-anchor="middle">i. Teleconferencing</text>
+  <g font-size="12.5" fill="#2c3e50">
+    <text x="44" y="306">• Telephone meeting, 2+ locations</text>
+    <text x="44" y="326">• 3+ people (group communication)</text>
+    <text x="44" y="346">• Audio-only <tspan font-weight="700">or</tspan> audio-video</text>
+    <text x="44" y="366">• Phone, computer, TV, radio,</text>
+    <text x="56" y="382">telegraph, teletypewriter</text>
+    <text x="44" y="402">• Landline + GSM network</text>
+    <text x="44" y="420">• PBX or VoIP</text>
+  </g>
+
+  <!-- Step 2: Video conferencing -->
+  <rect x="268" y="150" width="225" height="280" rx="14" fill="#e8f0fb" stroke="#2f6db5" stroke-width="3"/>
+  <text x="380" y="180" font-size="18" font-weight="800" fill="#1f4f8a" text-anchor="middle">ii. Video conferencing</text>
+  <g font-size="12.5" fill="#2c3e50">
+    <text x="282" y="206">Everything on the left, <tspan font-weight="700">plus</tspan>:</text>
+    <text x="282" y="230">• <tspan font-weight="700">Simultaneous two-way</tspan></text>
+    <text x="294" y="246">video <tspan font-weight="700">and</tspan> audio (always)</text>
+    <text x="282" y="268">• See the person while you</text>
+    <text x="294" y="284">listen to them</text>
+    <text x="282" y="306">• Over computer networks</text>
+    <text x="282" y="328">• "Visual collaboration";</text>
+    <text x="294" y="344">a type of groupware</text>
+    <text x="282" y="366">• VoIP services</text>
+    <text x="282" y="388">• Share files, applications,</text>
+    <text x="294" y="404">whiteboard, etc.</text>
+  </g>
+
+  <!-- Step 3: Tele-presence -->
+  <rect x="506" y="40" width="225" height="390" rx="14" fill="#e6f4f1" stroke="#0f8a7e" stroke-width="3"/>
+  <text x="618" y="70" font-size="18" font-weight="800" fill="#0b6b62" text-anchor="middle">iii. Tele-presence</text>
+  <g font-size="12.5" fill="#2c3e50">
+    <text x="520" y="96">Like video conferencing, but</text>
+    <text x="520" y="112">more advanced. Feel / appear /</text>
+    <text x="520" y="128">have an effect of being present</text>
+    <text x="520" y="144">elsewhere, via <tspan font-weight="700">telerobotics</tspan>.</text>
+    <text x="520" y="172" font-weight="700" fill="#0b6b62">Four extra features:</text>
+  </g>
+  <g font-size="12.5" fill="#2c3e50">
+    <rect x="518" y="184" width="201" height="50" rx="8" fill="#ffffff" stroke="#0f8a7e"/>
+    <text x="528" y="204" font-weight="700">a. Telecommunication</text>
+    <text x="545" y="222" font-weight="700">and networking</text>
+    <rect x="518" y="242" width="201" height="38" rx="8" fill="#ffffff" stroke="#0f8a7e"/>
+    <text x="528" y="266" font-weight="700">b. Tele-computing</text>
+    <rect x="518" y="288" width="201" height="38" rx="8" fill="#ffffff" stroke="#0f8a7e"/>
+    <text x="528" y="312" font-weight="700">c. Messaging</text>
+    <rect x="518" y="334" width="201" height="50" rx="8" fill="#ffffff" stroke="#0f8a7e"/>
+    <text x="528" y="354" font-weight="700">d. Information search,</text>
+    <text x="545" y="372" font-weight="700">retrieval and archival</text>
+    <text x="528" y="412" font-size="12" font-style="italic" fill="#0b6b62">These are what make it differ</text>
+    <text x="528" y="426" font-size="12" font-style="italic" fill="#0b6b62">from video conferencing</text>
+  </g>
+</svg>

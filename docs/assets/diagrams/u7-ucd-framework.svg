@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 480" width="780" height="480" font-family="Inter, Arial, sans-serif">
+  <title>User-centred design framework for ICT development: Component A stages supported by Component B theories</title>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0f8a7e"/>
+    </marker>
+    <marker id="u" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7048e8"/>
+    </marker>
+  </defs>
+  <text x="20" y="28" font-size="15" font-weight="800" fill="#0b6b62">Component A — User-centred phase of the design &amp; development cycle</text>
+
+  <g font-size="12" fill="#2c3e50">
+    <rect x="20" y="42" width="235" height="222" rx="12" fill="#e6f4f1" stroke="#0f8a7e" stroke-width="2.5"/>
+    <text x="137" y="66" font-size="14.5" font-weight="800" fill="#0b6b62" text-anchor="middle">(i) Exploratory research</text>
+    <text x="32" y="92">• Target users, needs, characteristics,</text>
+    <text x="42" y="108">social norms</text>
+    <text x="32" y="128">• Baseline survey of knowledge level</text>
+    <text x="32" y="148">• Design brief: content, form,</text>
+    <text x="42" y="164">interaction requirements</text>
+    <text x="32" y="184">• 4 contextual factors: socio-cultural,</text>
+    <text x="42" y="200">technological, economic, past ICT</text>
+    <text x="42" y="216">experience</text>
+    <text x="32" y="236">• Stakeholder responsibilities</text>
+
+    <rect x="272" y="42" width="235" height="222" rx="12" fill="#e6f4f1" stroke="#0f8a7e" stroke-width="2.5"/>
+    <text x="389" y="66" font-size="14.5" font-weight="800" fill="#0b6b62" text-anchor="middle">(ii) Creative design action</text>
+    <text x="284" y="92">• Build &amp; iterate prototype: the</text>
+    <text x="294" y="108" font-weight="700">Knowledge Aggregation Platform</text>
+    <text x="294" y="124" font-weight="700">(KAP)</text>
+    <text x="284" y="144">• Persuasive social cues in content,</text>
+    <text x="294" y="160">physical environment &amp; design</text>
+    <text x="284" y="180">• Constant user feedback in short</text>
+    <text x="294" y="196">design cycles</text>
+    <text x="284" y="216">• Feedback on Rogers' 5 attributes</text>
+
+    <rect x="524" y="42" width="235" height="222" rx="12" fill="#e6f4f1" stroke="#0f8a7e" stroke-width="2.5"/>
+    <text x="641" y="66" font-size="14.5" font-weight="800" fill="#0b6b62" text-anchor="middle">(iii) Evaluative research</text>
+    <text x="536" y="92">• Level 1: longitudinal study of KAP</text>
+    <text x="546" y="108">users — compare baseline group</text>
+    <text x="546" y="124">with intervention group (cohort)</text>
+    <text x="536" y="144">• Level 2: evaluate adoption on the</text>
+    <text x="546" y="160">5 innovation attributes:</text>
+    <text x="546" y="178" font-weight="700">relative advantage · compatibility ·</text>
+    <text x="546" y="194" font-weight="700">complexity · trialability ·</text>
+    <text x="546" y="210" font-weight="700">observability</text>
+    <text x="536" y="234">• → guidelines for future ICT design</text>
+  </g>
+  <g stroke="#0f8a7e" stroke-width="3" marker-end="url(#r)">
+    <line x1="255" y1="153" x2="270" y2="153"/>
+    <line x1="507" y1="153" x2="522" y2="153"/>
+  </g>
+  <path d="M 641 268 C 641 300, 137 300, 137 270" stroke="#0f8a7e" stroke-width="2" fill="none" stroke-dasharray="6 5" marker-end="url(#r)"/>
+  <text x="470" y="318" font-size="11.5" fill="#0b6b62" text-anchor="middle">iterate</text>
+
+  <text x="20" y="472" font-size="15" font-weight="800" fill="#5f3dc4">▲ Component B — Theoretical framework: one theory supports each stage of Component A</text>
+  <g font-size="12.5" fill="#2c3e50" text-anchor="middle">
+    <rect x="20" y="352" width="235" height="96" rx="12" fill="#f3f0ff" stroke="#7048e8" stroke-width="2.5"/>
+    <text x="137" y="376" font-size="14" font-weight="800" fill="#5f3dc4">Theory of planned behaviour</text>
+    <text x="137" y="398">attitude + subjective norm +</text>
+    <text x="137" y="414">perceived behavioural control</text>
+    <text x="137" y="430">→ behavioural intention</text>
+
+    <rect x="272" y="352" width="235" height="96" rx="12" fill="#f3f0ff" stroke="#7048e8" stroke-width="2.5"/>
+    <text x="389" y="376" font-size="14" font-weight="800" fill="#5f3dc4">Persuasive technology</text>
+    <text x="389" y="398">interactive systems designed to</text>
+    <text x="389" y="414">change attitudes or behaviour;</text>
+    <text x="389" y="430">social cues shape norms</text>
+
+    <rect x="524" y="352" width="235" height="96" rx="12" fill="#f3f0ff" stroke="#7048e8" stroke-width="2.5"/>
+    <text x="641" y="376" font-size="14" font-weight="800" fill="#5f3dc4">Diffusion theory (Rogers 1995)</text>
+    <text x="641" y="398">5 product innovation attributes</text>
+    <text x="641" y="414">used to collect feedback and</text>
+    <text x="641" y="430">to evaluate adoption</text>
+  </g>
+  <g stroke="#7048e8" stroke-width="2.5" marker-end="url(#u)">
+    <line x1="137" y1="350" x2="137" y2="268"/>
+    <line x1="389" y1="350" x2="389" y2="306"/>
+    <line x1="641" y1="350" x2="641" y2="306"/>
+  </g>
+</svg>

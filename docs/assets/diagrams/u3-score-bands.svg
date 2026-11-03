@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 230" width="760" height="230" font-family="Inter, Arial, sans-serif">
+  <title>Total gap score bands 0 to 70</title>
+  <!-- scale: x=30 is 0, 10px per point; x=730 is 70 -->
+  <rect x="30"  y="70" width="145" height="56" fill="#2f9e44"/>
+  <rect x="175" y="70" width="140" height="56" fill="#94c11f"/>
+  <rect x="315" y="70" width="140" height="56" fill="#f2b705"/>
+  <rect x="455" y="70" width="140" height="56" fill="#f76707"/>
+  <rect x="595" y="70" width="135" height="56" fill="#e03131"/>
+  <g font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">
+    <text x="102" y="104">0–14</text>
+    <text x="245" y="104" fill="#1b2a10">15–28</text>
+    <text x="385" y="104" fill="#3a2a00">29–42</text>
+    <text x="525" y="104">43–56</text>
+    <text x="662" y="104">57–70</text>
+  </g>
+  <g font-size="12.5" fill="#2c3e50" text-anchor="middle">
+    <text x="102" y="148">Project well</text><text x="102" y="164">succeeded</text>
+    <text x="245" y="148">Partial failure</text><text x="245" y="164">(gaps not closed)</text>
+    <text x="385" y="148">Might fail totally or</text><text x="385" y="164">be a partial failure</text><text x="385" y="180">unless action taken</text>
+    <text x="525" y="148">May well fail</text><text x="525" y="164">unless action taken</text>
+    <text x="662" y="148">Certainly failed</text><text x="662" y="164">(gaps not closed)</text>
+  </g>
+  <text x="30" y="56" font-size="12" fill="#5b6b7a">0</text>
+  <text x="730" y="56" font-size="12" fill="#5b6b7a" text-anchor="end">70 = 7 dimensions × 10</text>
+
+  <!-- markers -->
+  <g>
+    <line x1="380" y1="20" x2="380" y2="70" stroke="#1f4f8a" stroke-width="3"/>
+    <polygon points="373,62 387,62 380,72" fill="#1f4f8a"/>
+    <text x="374" y="30" font-size="12.5" font-weight="700" fill="#1f4f8a" text-anchor="end">Table 3.2 e-gov project = 35</text>
+    <line x1="490" y1="20" x2="490" y2="70" stroke="#7a1f1f" stroke-width="3"/>
+    <polygon points="483,62 497,62 490,72" fill="#7a1f1f"/>
+    <text x="496" y="30" font-size="12.5" font-weight="700" fill="#7a1f1f">Colombia big data = 46</text>
+  </g>
+  <text x="30" y="214" font-size="12.5" fill="#5b6b7a">← smaller gaps · more likely to succeed</text>
+  <text x="730" y="214" font-size="12.5" fill="#5b6b7a" text-anchor="end">larger gaps · more likely to fail →</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="Inter, Arial, sans-serif">
+  <title>GIS layers stacked on one map, related by location</title>
+  <!-- each layer is a skewed parallelogram -->
+  <g>
+    <polygon points="120,40 420,40 480,100 180,100" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/>
+    <g fill="#e03131"><circle cx="230" cy="62" r="6"/><circle cx="330" cy="80" r="6"/><circle cx="390" cy="58" r="6"/></g>
+
+    <polygon points="120,120 420,120 480,180 180,180" fill="#f8f9fa" stroke="#495057" stroke-width="2"/>
+    <path d="M150 150 L 270 140 L 330 165 L 460 160" stroke="#495057" stroke-width="4" fill="none"/>
+    <path d="M250 125 L 300 178" stroke="#495057" stroke-width="3" fill="none"/>
+
+    <polygon points="120,200 420,200 480,260 180,260" fill="#ebfbee" stroke="#2f9e44" stroke-width="2"/>
+    <ellipse cx="260" cy="230" rx="50" ry="14" fill="#8ce99a"/><ellipse cx="380" cy="235" rx="40" ry="12" fill="#8ce99a"/>
+
+    <polygon points="120,280 420,280 480,340 180,340" fill="#fff9db" stroke="#f08c00" stroke-width="2"/>
+    <path d="M140 300 C 220 330, 300 290, 470 325" stroke="#1c7ed6" stroke-width="5" fill="none"/>
+  </g>
+  <line x1="330" y1="30" x2="330" y2="350" stroke="#d9480f" stroke-width="2" stroke-dasharray="6 5"/>
+  <circle cx="330" cy="355" r="5" fill="#d9480f"/>
+  <text x="330" y="378" font-size="12.5" font-weight="700" fill="#d9480f" text-anchor="middle">one location links all layers</text>
+
+  <g font-size="14" fill="#2c3e50">
+    <text x="500" y="70" font-weight="700">People / sites</text>
+    <text x="500" y="88" font-size="12" fill="#5b6b7a">factories (pollution sources), schools</text>
+    <text x="500" y="150" font-weight="700">Roads &amp; buildings</text>
+    <text x="500" y="168" font-size="12" fill="#5b6b7a">linear networks, streets</text>
+    <text x="500" y="230" font-weight="700">Vegetation / land use</text>
+    <text x="500" y="248" font-size="12" fill="#5b6b7a">wetlands, farms, forests</text>
+    <text x="500" y="310" font-weight="700">Rivers &amp; terrain</text>
+    <text x="500" y="328" font-size="12" fill="#5b6b7a">streams, elevation</text>
+  </g>
+  <text x="20" y="395" font-size="11.5" fill="#5b6b7a">Overlaying factories on rivers and wetlands shows where water supplies are most at risk (courseware example).</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="Inter, Arial, sans-serif">
+  <title>Macro, meso and micro perspectives of technology transfer</title>
+  <circle cx="230" cy="210" r="195" fill="#e8f0fb" stroke="#2f6db5" stroke-width="3"/>
+  <circle cx="230" cy="245" r="130" fill="#e6f4f1" stroke="#0f8a7e" stroke-width="3"/>
+  <circle cx="230" cy="285" r="68" fill="#fff4e0" stroke="#d98a00" stroke-width="3"/>
+  <text x="230" y="50" font-size="20" font-weight="800" fill="#1f4f8a" text-anchor="middle">MACRO</text>
+  <text x="230" y="70" font-size="12" fill="#1f4f8a" text-anchor="middle">national / regional policy</text>
+  <text x="230" y="140" font-size="18" font-weight="800" fill="#0b6b62" text-anchor="middle">MESO</text>
+  <text x="230" y="158" font-size="12" fill="#0b6b62" text-anchor="middle">supporting institutions</text>
+  <text x="230" y="282" font-size="17" font-weight="800" fill="#a86500" text-anchor="middle">MICRO</text>
+  <text x="230" y="300" font-size="12" fill="#a86500" text-anchor="middle">individual actors</text>
+
+  <g font-size="12.5" fill="#2c3e50">
+    <text x="450" y="40" font-size="15" font-weight="800" fill="#1f4f8a">Macro</text>
+    <text x="450" y="58">Policy instruments, mechanisms, measurement,</text>
+    <text x="450" y="74">evaluation &amp; effectiveness of tech transfer</text>
+    <text x="450" y="90">e.g. Bayh–Dole Act 1980; German cluster policy;</text>
+    <text x="450" y="106">US Advanced Technology Programme; EU Framework</text>
+    <text x="450" y="122">Programme; entrepreneurial ecosystems</text>
+
+    <text x="450" y="170" font-size="15" font-weight="800" fill="#0b6b62">Meso</text>
+    <text x="450" y="188">Universities, research organisations,</text>
+    <text x="450" y="204">technology transfer offices (TTOs),</text>
+    <text x="450" y="220">incubators, accelerators, science parks,</text>
+    <text x="450" y="236">graduate entrepreneurship</text>
+
+    <text x="450" y="290" font-size="15" font-weight="800" fill="#a86500">Micro</text>
+    <text x="450" y="308">Scientists, star scientists, principal</text>
+    <text x="450" y="324">investigators, academic &amp; technology</text>
+    <text x="450" y="340">entrepreneurs, graduate students;</text>
+    <text x="450" y="356">motivations, communication, barriers</text>
+  </g>
+  <text x="450" y="400" font-size="11.5" fill="#5b6b7a">Multi-level lenses: triple/quadruple helix, entrepreneurial</text>
+  <text x="450" y="414" font-size="11.5" fill="#5b6b7a">ecosystems, clusters, public-sector entrepreneurship</text>
+</svg>

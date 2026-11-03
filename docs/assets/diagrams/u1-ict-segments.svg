@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300" font-family="Inter, Arial, sans-serif">
+  <title>Four segments of the IT component of the ICT industry</title>
+  <text x="430" y="28" text-anchor="middle" font-size="19" font-weight="800" fill="#2c3e50">How easy is it for a new (developing-country) firm to enter each segment?</text>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#e5484d"/><stop offset="0.5" stop-color="#f0a020"/><stop offset="1" stop-color="#46a758"/></linearGradient></defs>
+  <rect x="40" y="48" width="780" height="14" rx="7" fill="url(#g)"/>
+  <text x="40" y="82" font-size="13" fill="#b03a2e" font-weight="700">Harder to enter</text>
+  <text x="820" y="82" text-anchor="end" font-size="13" fill="#2f7a3d" font-weight="700">Easier to enter</text>
+  <g font-size="13" fill="#2c3e50">
+    <rect x="40" y="100" width="185" height="185" rx="12" fill="#fdecec" stroke="#e5484d" stroke-width="2"/>
+    <text x="132" y="126" text-anchor="middle" font-size="16" font-weight="800" fill="#b03a2e">Hardware</text>
+    <text x="52" y="152">• Tangible; consolidating</text>
+    <text x="52" y="174">• Asset-intensive, large</text>
+    <text x="64" y="192">up-front investment</text>
+    <text x="52" y="214">• Commoditized → compete</text>
+    <text x="64" y="232">on price</text>
+    <text x="52" y="254">• Dominated by a few</text>
+    <text x="64" y="272">Asian nations</text>
+
+    <rect x="240" y="100" width="185" height="185" rx="12" fill="#fff4e0" stroke="#f0a020" stroke-width="2"/>
+    <text x="332" y="126" text-anchor="middle" font-size="16" font-weight="800" fill="#a86500">Service providers</text>
+    <text x="252" y="152">• Help organisations use</text>
+    <text x="264" y="170">their ICT systems</text>
+    <text x="252" y="192">• Small margins</text>
+    <text x="252" y="214">• Sensitive to exchange</text>
+    <text x="264" y="232">rates and labour costs</text>
+    <text x="252" y="254">• Need economies of scale</text>
+    <text x="264" y="272">to beat multinationals</text>
+
+    <rect x="440" y="100" width="185" height="185" rx="12" fill="#eaf6ec" stroke="#46a758" stroke-width="2"/>
+    <text x="532" y="126" text-anchor="middle" font-size="16" font-weight="800" fill="#2f7a3d">Software + services</text>
+    <text x="452" y="152">• Service firms that also</text>
+    <text x="464" y="170">develop/license software</text>
+    <text x="452" y="192">• Higher margins than</text>
+    <text x="464" y="210">"pure" services</text>
+    <text x="452" y="232">• Less affected by scale</text>
+    <text x="464" y="250">or labour-rate changes</text>
+
+    <rect x="640" y="100" width="185" height="185" rx="12" fill="#e3f5e6" stroke="#2f7a3d" stroke-width="2"/>
+    <text x="732" y="126" text-anchor="middle" font-size="16" font-weight="800" fill="#2f7a3d">Software</text>
+    <text x="652" y="152">• Intellectual activity</text>
+    <text x="652" y="174">• Few up-front resources</text>
+    <text x="652" y="196">• Specialised, diversified</text>
+    <text x="652" y="218">• From one-person shops</text>
+    <text x="664" y="236">to multinationals</text>
+    <text x="652" y="258">• Relies on IP law</text>
+    <text x="664" y="276">against copying</text>
+  </g>
+</svg>

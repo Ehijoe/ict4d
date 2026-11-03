@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="Inter, Arial, sans-serif">
+  <title>Domains of e-Health (Figure 6.1 redrawn)</title>
+  <g stroke="#9fd1c9" stroke-width="2">
+    <line x1="380" y1="210" x2="130" y2="70"/><line x1="380" y1="210" x2="300" y2="50"/>
+    <line x1="380" y1="210" x2="560" y2="60"/><line x1="380" y1="210" x2="640" y2="170"/>
+    <line x1="380" y1="210" x2="650" y2="280"/><line x1="380" y1="210" x2="560" y2="370"/>
+    <line x1="380" y1="210" x2="380" y2="370"/><line x1="380" y1="210" x2="140" y2="330"/>
+    <line x1="380" y1="210" x2="120" y2="190"/>
+  </g>
+  <circle cx="380" cy="210" r="72" fill="#ffffff" stroke="#2f9e44" stroke-width="3"/>
+  <text x="380" y="198" font-size="20" font-weight="800" fill="#2b8a3e" text-anchor="middle">Domains</text>
+  <text x="380" y="220" font-size="16" font-weight="700" fill="#2b8a3e" text-anchor="middle">of</text>
+  <text x="380" y="242" font-size="20" font-weight="800" fill="#2b8a3e" text-anchor="middle">e-Health</text>
+
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="40" y="40" width="180" height="62" rx="10" fill="#f1f3f5" stroke="#868e96"/>
+    <text x="130" y="64" fill="#343a40">P-Health</text>
+    <text x="130" y="82" font-size="11" font-weight="400" fill="#495057">"personalised" health incl.</text>
+    <text x="130" y="96" font-size="11" font-weight="400" fill="#495057">wearables &amp; implantable sensors</text>
+
+    <rect x="240" y="30" width="120" height="40" rx="10" fill="#fff4e6" stroke="#e8590c"/>
+    <text x="300" y="55" fill="#d9480f">Mobile Apps</text>
+
+    <rect x="40" y="170" width="160" height="40" rx="10" fill="#e7f5ff" stroke="#1c7ed6"/>
+    <text x="120" y="195" fill="#1864ab">M-Health</text>
+
+    <rect x="490" y="40" width="140" height="40" rx="10" fill="#e6fcf5" stroke="#2f9e44"/>
+    <text x="560" y="65" fill="#2b8a3e">Telemedicine</text>
+
+    <rect x="526" y="150" width="226" height="40" rx="10" fill="#e7f5ff" stroke="#1c7ed6"/>
+    <text x="639" y="175" fill="#1864ab">Clinical information systems</text>
+
+    <rect x="546" y="260" width="206" height="40" rx="10" fill="#fff9db" stroke="#f08c00"/>
+    <text x="649" y="285" fill="#b26b00">Electronic Health Records</text>
+
+    <rect x="490" y="350" width="140" height="40" rx="10" fill="#e7f5ff" stroke="#1c7ed6"/>
+    <text x="560" y="375" fill="#1864ab">E-prescribing</text>
+
+    <rect x="290" y="350" width="180" height="40" rx="10" fill="#e7f5ff" stroke="#1c7ed6"/>
+    <text x="380" y="375" fill="#1864ab">Integrated networks</text>
+
+    <rect x="60" y="310" width="160" height="40" rx="10" fill="#e7f5ff" stroke="#1c7ed6"/>
+    <text x="140" y="335" fill="#1864ab">Big Data</text>
+  </g>
+  <text x="20" y="410" font-size="11" fill="#5b6b7a">Adapted in the courseware from "E-Health: A position statement of the European Society of Cardiology", Cowie et al. 2016</text>
+</svg>

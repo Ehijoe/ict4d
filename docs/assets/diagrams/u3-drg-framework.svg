@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 590" width="760" height="590" font-family="Inter, Arial, sans-serif">
+  <title>Design–reality gap framework (ITPOSMO)</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2c3e50"/>
+    </marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d9480f"/>
+    </marker>
+  </defs>
+
+  <!-- column headers -->
+  <rect x="40" y="20" width="220" height="52" rx="8" fill="#e8f0fb" stroke="#2f6db5" stroke-width="2.5"/>
+  <text x="150" y="44" font-size="17" font-weight="800" fill="#1f4f8a" text-anchor="middle">System design</text>
+  <text x="150" y="62" font-size="12" fill="#1f4f8a" text-anchor="middle">what the project requires / assumes</text>
+  <rect x="500" y="20" width="220" height="52" rx="8" fill="#e6f4f1" stroke="#0f8a7e" stroke-width="2.5"/>
+  <text x="610" y="44" font-size="17" font-weight="800" fill="#0b6b62" text-anchor="middle">Current reality</text>
+  <text x="610" y="62" font-size="12" fill="#0b6b62" text-anchor="middle">what is actually on the ground</text>
+
+  <!-- rows -->
+  <g font-size="15" fill="#2c3e50">
+    <!-- y positions: 110,154,198,242,286,330,374 ; outside world 426 -->
+    <text x="50" y="115"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">I</tspan>nformation</text>
+    <text x="510" y="115"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">I</tspan>nformation</text>
+    <text x="50" y="159"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">T</tspan>echnology</text>
+    <text x="510" y="159"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">T</tspan>echnology</text>
+    <text x="50" y="203"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">P</tspan>rocesses</text>
+    <text x="510" y="203"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">P</tspan>rocesses</text>
+    <text x="50" y="247"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">O</tspan>bjectives and values</text>
+    <text x="510" y="247"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">O</tspan>bjectives and values</text>
+    <text x="50" y="291"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">S</tspan>taffing and skills</text>
+    <text x="510" y="291"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">S</tspan>taffing and skills</text>
+    <text x="50" y="327"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">M</tspan>anagement systems</text>
+    <text x="64" y="345">and structures</text>
+    <text x="510" y="327"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">M</tspan>anagement systems</text>
+    <text x="524" y="345">and structures</text>
+    <text x="50" y="379"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">O</tspan>ther resources</text>
+    <text x="64" y="396" font-size="12" fill="#5b6b7a">(time and money)</text>
+    <text x="510" y="379"><tspan font-weight="800" fill="#d9480f" text-decoration="underline">O</tspan>ther resources</text>
+    <text x="524" y="396" font-size="12" fill="#5b6b7a">(time and money)</text>
+  </g>
+  <g stroke="#2c3e50" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)">
+    <line x1="265" y1="110" x2="495" y2="110"/>
+    <line x1="265" y1="154" x2="495" y2="154"/>
+    <line x1="265" y1="198" x2="495" y2="198"/>
+    <line x1="265" y1="242" x2="495" y2="242"/>
+    <line x1="265" y1="286" x2="495" y2="286"/>
+    <line x1="265" y1="332" x2="495" y2="332"/>
+    <line x1="265" y1="374" x2="495" y2="374"/>
+  </g>
+  <g font-size="11.5" fill="#5b6b7a" text-anchor="middle">
+    <text x="380" y="104">gap 0–10</text>
+  </g>
+
+  <!-- outside world -->
+  <rect x="34" y="410" width="692" height="40" rx="8" fill="#fbfbfb" stroke="#9aa5b1" stroke-dasharray="6 5"/>
+  <g font-size="15" fill="#5b6b7a">
+    <text x="50" y="436"><tspan font-weight="800" text-decoration="underline">O</tspan>utside world</text>
+    <text x="510" y="436"><tspan font-weight="800" text-decoration="underline">O</tspan>utside world</text>
+  </g>
+  <line x1="265" y1="430" x2="495" y2="430" stroke="#9aa5b1" stroke-width="2" stroke-dasharray="6 5" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="380" y="424" font-size="11.5" fill="#5b6b7a" text-anchor="middle">8th row — in Figure 3.2 only</text>
+
+  <!-- bracket for ITPOSMO -->
+  <path d="M 738 92 L 748 92 L 748 400 L 738 400" fill="none" stroke="#d9480f" stroke-width="2"/>
+  <text x="752" y="250" font-size="13" font-weight="800" fill="#d9480f" transform="rotate(90 752 250)" text-anchor="middle">7 scored dimensions = ITPOSMO</text>
+
+  <!-- design vs reality footer -->
+  <rect x="140" y="478" width="130" height="40" rx="6" fill="#e8f0fb" stroke="#2f6db5" stroke-width="2.5"/>
+  <text x="205" y="504" font-size="16" font-weight="800" fill="#1f4f8a" text-anchor="middle">Design</text>
+  <rect x="490" y="478" width="130" height="40" rx="6" fill="#e6f4f1" stroke="#0f8a7e" stroke-width="2.5"/>
+  <text x="555" y="504" font-size="16" font-weight="800" fill="#0b6b62" text-anchor="middle">Reality</text>
+  <line x1="275" y1="498" x2="485" y2="498" stroke="#d9480f" stroke-width="3" marker-start="url(#g)" marker-end="url(#g)"/>
+  <line x1="380" y1="560" x2="380" y2="506" stroke="#d9480f" stroke-width="2.5" marker-end="url(#g)"/>
+  <text x="380" y="580" font-size="16" font-weight="800" fill="#d9480f" text-anchor="middle">Gap</text>
+</svg>

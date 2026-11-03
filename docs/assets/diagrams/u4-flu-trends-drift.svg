@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" font-family="Inter, Arial, sans-serif">
+  <title>Illustrative sketch: a fixed algorithm drifts out of sync with reality over time</title>
+  <rect x="60" y="30" width="660" height="230" fill="#fbfcfd" stroke="#d6dde5"/>
+  <!-- training region -->
+  <rect x="60" y="30" width="250" height="230" fill="#e6f4f1"/>
+  <text x="185" y="50" font-size="13" font-weight="700" fill="#0b6b62" text-anchor="middle">Model built on past data</text>
+  <text x="185" y="66" font-size="12" fill="#0b6b62" text-anchor="middle">45 search terms fit well</text>
+  <text x="515" y="50" font-size="13" font-weight="700" fill="#a8380b" text-anchor="middle">Same algorithm, changed reality</text>
+  <text x="515" y="66" font-size="12" fill="#a8380b" text-anchor="middle">search behaviour changes → estimates drift</text>
+
+  <!-- actual flu (official) -->
+  <path d="M60 230 C 90 230, 100 120, 130 120 S 170 230, 200 230 S 240 110, 270 110 S 300 230, 330 230 S 370 130, 400 130 S 440 230, 470 230 S 510 120, 540 120 S 580 230, 610 230 S 650 125, 680 125 S 710 230, 720 230"
+        fill="none" stroke="#2c3e50" stroke-width="3"/>
+  <!-- algorithm estimate -->
+  <path d="M60 232 C 90 232, 100 116, 130 116 S 170 232, 200 232 S 240 106, 270 106 S 300 232, 330 228 S 370 108, 400 100 S 440 214, 470 210 S 510 84, 540 78 S 580 196, 610 192 S 650 72, 680 64 S 710 186, 720 186"
+        fill="none" stroke="#d9480f" stroke-width="3" stroke-dasharray="8 5"/>
+
+  <line x1="60" y1="260" x2="720" y2="260" stroke="#5b6b7a" stroke-width="1.5"/>
+  <line x1="60" y1="30" x2="60" y2="260" stroke="#5b6b7a" stroke-width="1.5"/>
+  <text x="390" y="282" font-size="12.5" fill="#5b6b7a" text-anchor="middle">time →</text>
+  <text x="30" y="150" font-size="12.5" fill="#5b6b7a" text-anchor="middle" transform="rotate(-90 30 150)">flu level</text>
+
+  <g font-size="12.5" fill="#2c3e50">
+    <line x1="120" y1="306" x2="160" y2="306" stroke="#2c3e50" stroke-width="3"/>
+    <text x="168" y="311">Actual flu (official data)</text>
+    <line x1="380" y1="306" x2="420" y2="306" stroke="#d9480f" stroke-width="3" stroke-dasharray="8 5"/>
+    <text x="428" y="311">Algorithm's estimate from search terms</text>
+  </g>
+</svg>

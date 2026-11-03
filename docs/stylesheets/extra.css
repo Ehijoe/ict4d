@@ -1,0 +1,70 @@
+/* Site-wide tweaks */
+
+/* Custom SVG diagrams are drawn for a light background; give them a fixed light card
+   so their colours read the same in light and dark mode. */
+.md-typeset img.diagram,
+.md-typeset .diagram img {
+  display: block;
+  margin: 1rem auto 0.3rem;
+  max-width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 0.6rem;
+  box-shadow: 0 0 0 1px var(--md-default-fg-color--lightest);
+}
+
+/* Figure captions: an italic paragraph directly after a diagram */
+.md-typeset .caption {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.2rem;
+}
+
+/* Mermaid diagrams centred */
+.md-typeset .mermaid {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Exam question marks, e.g. <span class="marks">(6 marks)</span> */
+.md-typeset .marks {
+  float: right;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85em;
+}
+
+/* Exam-paper header box */
+.md-typeset .exam-paper {
+  border: 2px solid var(--md-default-fg-color--lighter);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Learning outcomes list a bit tighter */
+.md-typeset .outcomes li {
+  margin-bottom: 0.2em;
+}
+
+/* Tables: allow wrapping on narrow screens */
+.md-typeset table:not([class]) {
+  font-size: 0.78rem;
+}
+
+/* Courseware quotes */
+.md-typeset blockquote {
+  border-left-color: var(--md-primary-fg-color);
+}
+
+/* Mock exam paper header */
+.exam-header {
+  border: 2px solid var(--md-primary-fg-color);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.exam-header p { margin: 0.3rem 0; }

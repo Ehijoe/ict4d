@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="900" height="330" font-family="Inter, Arial, sans-serif">
+  <title>Comparison of industrial revolutions (Figure 1.2, redrawn)</title>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="800" fill="#2c3e50">Industrial revolutions</text>
+  <line x1="40" y1="80" x2="860" y2="80" stroke="#c7ced6" stroke-width="6" stroke-linecap="round"/>
+  <text x="40" y="66" font-size="13" fill="#7a8794">1750s</text>
+  <text x="860" y="66" text-anchor="end" font-size="13" fill="#7a8794">today</text>
+  <g>
+    <rect x="70" y="74" width="150" height="12" rx="6" fill="#46a758"/>
+    <circle cx="145" cy="80" r="16" fill="#46a758"/><text x="145" y="86" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">1</text>
+    <rect x="30" y="110" width="200" height="200" rx="12" fill="#eaf6ec" stroke="#46a758" stroke-width="2"/>
+    <text x="130" y="136" text-anchor="middle" font-size="15" font-weight="800" fill="#2f7a3d">First</text>
+    <g font-size="13" fill="#2c3e50" text-anchor="middle">
+      <text x="130" y="162">End of the 18th century</text>
+      <text x="130" y="190" font-weight="700">Mechanization</text>
+      <text x="130" y="210">made possible by</text>
+      <text x="130" y="230" font-weight="700">steam and water power</text>
+    </g>
+  </g>
+  <g>
+    <rect x="300" y="74" width="120" height="12" rx="6" fill="#f0a020"/>
+    <circle cx="360" cy="80" r="16" fill="#f0a020"/><text x="360" y="86" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">2</text>
+    <rect x="245" y="110" width="200" height="200" rx="12" fill="#fff4e0" stroke="#f0a020" stroke-width="2"/>
+    <text x="345" y="136" text-anchor="middle" font-size="15" font-weight="800" fill="#a86500">Second</text>
+    <g font-size="13" fill="#2c3e50" text-anchor="middle">
+      <text x="345" y="162">Start of the 20th century</text>
+      <text x="345" y="190">Aided by <tspan font-weight="700">electricity</tspan></text>
+      <text x="345" y="210">Marked by <tspan font-weight="700">mass production</tspan>,</text>
+      <text x="345" y="230">the <tspan font-weight="700">assembly line</tspan> and</text>
+      <text x="345" y="250"><tspan font-weight="700">divisions of labour</tspan></text>
+    </g>
+  </g>
+  <g>
+    <rect x="520" y="74" width="110" height="12" rx="6" fill="#3e9fd6"/>
+    <circle cx="575" cy="80" r="16" fill="#3e9fd6"/><text x="575" y="86" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">3</text>
+    <rect x="460" y="110" width="200" height="200" rx="12" fill="#e7f3fb" stroke="#3e9fd6" stroke-width="2"/>
+    <text x="560" y="136" text-anchor="middle" font-size="15" font-weight="800" fill="#1f6fa3">Third</text>
+    <g font-size="13" fill="#2c3e50" text-anchor="middle">
+      <text x="560" y="162">Started in the 1970s</text>
+      <text x="560" y="190">Use of <tspan font-weight="700">computers</tspan></text>
+      <text x="560" y="210">to further <tspan font-weight="700">automate</tspan></text>
+      <text x="560" y="230">machines and</text>
+      <text x="560" y="250">production processes</text>
+    </g>
+  </g>
+  <g>
+    <rect x="730" y="74" width="110" height="12" rx="6" fill="#8e4ec6"/>
+    <circle cx="785" cy="80" r="16" fill="#8e4ec6"/><text x="785" y="86" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">4</text>
+    <rect x="675" y="110" width="200" height="200" rx="12" fill="#f3ebfa" stroke="#8e4ec6" stroke-width="2"/>
+    <text x="775" y="136" text-anchor="middle" font-size="15" font-weight="800" fill="#6a3596">Fourth (ICT-driven)</text>
+    <g font-size="13" fill="#2c3e50" text-anchor="middle">
+      <text x="775" y="162">Currently in its infancy</text>
+      <text x="775" y="190">Expected to bring the</text>
+      <text x="775" y="210"><tspan font-weight="700">smart factory</tspan> and a fully</text>
+      <text x="775" y="230">realized digital and</text>
+      <text x="775" y="250"><tspan font-weight="700">interoperable ecosystem</tspan></text>
+      <text x="775" y="270">of machines and partners</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" font-family="Inter, Arial, sans-serif">
+  <title>IT is a subset of ICT</title>
+  <rect x="10" y="10" width="620" height="360" rx="24" fill="#e6f4f1" stroke="#0f8a7e" stroke-width="3"/>
+  <text x="34" y="46" font-size="22" font-weight="800" fill="#0b6b62">ICT — Information and Communication Technology</text>
+  <text x="34" y="70" font-size="14" fill="#2c3e50">Everything that enables communication, data sharing and connectivity</text>
+  <rect x="34" y="94" width="300" height="250" rx="18" fill="#fff4e0" stroke="#d98a00" stroke-width="3"/>
+  <text x="54" y="128" font-size="20" font-weight="800" fill="#a86500">IT — Information Technology</text>
+  <text x="54" y="152" font-size="13" fill="#2c3e50">Managing technologies related to information</text>
+  <g font-size="14" fill="#2c3e50">
+    <text x="64" y="190">• Hardware</text>
+    <text x="64" y="216">• Software</text>
+    <text x="64" y="242">• Networking</text>
+    <text x="64" y="268">• Data / information systems</text>
+    <text x="54" y="318" font-style="italic" fill="#a86500">Does NOT include telecommunications</text>
+  </g>
+  <text x="360" y="122" font-size="15" font-weight="700" fill="#0b6b62">ICT adds (outside IT):</text>
+  <g font-size="14" fill="#2c3e50">
+    <text x="360" y="150">• Telephony — fixed, mobile, satellite</text>
+    <text x="360" y="176">• Radio and TV broadcasting</text>
+    <text x="360" y="202">• Mobile / wireless networks (5G/6G)</text>
+    <text x="360" y="228">• Video conferencing, unified</text>
+    <text x="372" y="246">communications, collaboration tools</text>
+    <text x="360" y="272">• Internet, social media, IoT, cloud</text>
+    <text x="360" y="298">• Emerging: Web3, metaverse, VR,</text>
+    <text x="372" y="316">AI, robotics, quantum computing</text>
+  </g>
+</svg>

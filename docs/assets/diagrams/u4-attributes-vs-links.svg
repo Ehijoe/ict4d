@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" width="780" height="420" font-family="Inter, Arial, sans-serif">
+  <title>Traditional database of attributes versus network database of links</title>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2f6db5"/>
+    </marker>
+  </defs>
+
+  <!-- LEFT: attributes -->
+  <text x="190" y="28" font-size="16" font-weight="800" fill="#2c3e50" text-anchor="middle">Traditional database of attributes</text>
+  <text x="190" y="46" font-size="12.5" fill="#5b6b7a" text-anchor="middle">"who individuals are"</text>
+  <g font-size="12.5" fill="#2c3e50">
+    <rect x="20" y="58" width="340" height="26" fill="#2f6db5"/>
+    <g fill="#ffffff" font-weight="700">
+      <text x="90" y="76">Gender</text><text x="152" y="76">Location</text><text x="228" y="76">Income</text><text x="290" y="76">Education</text>
+    </g>
+    <rect x="20" y="84" width="340" height="104" fill="#eef3fa"/>
+    <g font-weight="700"><text x="28" y="104">Jorge</text><text x="28" y="130">Maria</text><text x="28" y="156">Juan</text><text x="28" y="182">Magda</text></g>
+    <text x="104" y="104">M</text><text x="152" y="104">Urban</text><text x="232" y="104">700</text><text x="290" y="104">Tertiary</text>
+    <text x="104" y="130">F</text><text x="152" y="130">Urban</text><text x="232" y="130">500</text><text x="290" y="130">Secondary</text>
+    <text x="104" y="156">M</text><text x="152" y="156">Rural</text><text x="232" y="156">300</text><text x="290" y="156">Primary</text>
+    <text x="104" y="182">F</text><text x="152" y="182">Rural</text><text x="232" y="182">200</text><text x="290" y="182">—</text>
+  </g>
+  <!-- left nodes (no links) -->
+  <g font-size="13" fill="#2c3e50">
+    <polygon points="80,225 105,270 55,270" fill="#2f6db5"/><text x="80" y="290" text-anchor="middle">Jorge</text>
+    <polygon points="300,225 325,270 275,270" fill="#ffffff" stroke="#2f6db5" stroke-width="2.5"/><text x="300" y="290" text-anchor="middle">Maria</text>
+    <circle cx="80" cy="355" r="22" fill="#2f6db5"/><text x="80" y="395" text-anchor="middle">Juan</text>
+    <circle cx="300" cy="355" r="22" fill="#ffffff" stroke="#2f6db5" stroke-width="2.5"/><text x="300" y="395" text-anchor="middle">Magda</text>
+  </g>
+  <text x="190" y="325" font-size="12" fill="#5b6b7a" text-anchor="middle" font-style="italic">independent agents — no ties recorded</text>
+
+  <line x1="390" y1="20" x2="390" y2="405" stroke="#d6dde5" stroke-width="2"/>
+
+  <!-- RIGHT: links -->
+  <text x="590" y="28" font-size="16" font-weight="800" fill="#2c3e50" text-anchor="middle">Network database of links</text>
+  <text x="590" y="46" font-size="12.5" fill="#5b6b7a" text-anchor="middle">"with whom individuals are" — matrix format</text>
+  <g font-size="12.5" fill="#2c3e50">
+    <rect x="420" y="58" width="340" height="26" fill="#2f6db5"/>
+    <g fill="#ffffff" font-weight="700">
+      <text x="500" y="76">Jorge</text><text x="565" y="76">Maria</text><text x="632" y="76">Juan</text><text x="695" y="76">Magda</text>
+    </g>
+    <rect x="420" y="84" width="340" height="104" fill="#eef3fa"/>
+    <g font-weight="700"><text x="428" y="104">Jorge</text><text x="428" y="130">Maria</text><text x="428" y="156">Juan</text><text x="428" y="182">Magda</text></g>
+    <g text-anchor="middle">
+      <text x="518" y="104" fill="#5b6b7a">self</text><text x="583" y="104" font-weight="800" fill="#2f6db5">tie</text><text x="648" y="104">—</text><text x="713" y="104" font-weight="800" fill="#2f6db5">tie</text>
+      <text x="518" y="130" font-weight="800" fill="#2f6db5">tie</text><text x="583" y="130" fill="#5b6b7a">self</text><text x="648" y="130">—</text><text x="713" y="130" font-weight="800" fill="#2f6db5">tie</text>
+      <text x="518" y="156">—</text><text x="583" y="156">—</text><text x="648" y="156" fill="#5b6b7a">self</text><text x="713" y="156">—</text>
+      <text x="518" y="182">—</text><text x="583" y="182" font-weight="800" fill="#2f6db5">tie</text><text x="648" y="182" font-weight="800" fill="#2f6db5">tie</text><text x="713" y="182" fill="#5b6b7a">self</text>
+    </g>
+  </g>
+  <!-- right nodes with links -->
+  <g stroke="#2f6db5" stroke-width="3" fill="none">
+    <line x1="510" y1="252" x2="672" y2="252" marker-start="url(#ar)" marker-end="url(#ar)"/>
+    <line x1="700" y1="275" x2="700" y2="326" marker-start="url(#ar)" marker-end="url(#ar)"/>
+    <line x1="495" y1="272" x2="676" y2="345" marker-end="url(#ar)"/>
+    <line x1="676" y1="357" x2="508" y2="357" marker-end="url(#ar)"/>
+  </g>
+  <g font-size="13" fill="#2c3e50">
+    <polygon points="480,225 505,270 455,270" fill="#2f6db5"/><text x="480" y="290" text-anchor="middle">Jorge</text>
+    <polygon points="700,225 725,270 675,270" fill="#ffffff" stroke="#2f6db5" stroke-width="2.5"/><text x="738" y="250">Maria</text>
+    <circle cx="480" cy="357" r="22" fill="#2f6db5"/><text x="480" y="397" text-anchor="middle">Juan</text>
+    <circle cx="700" cy="357" r="22" fill="#ffffff" stroke="#2f6db5" stroke-width="2.5"/><text x="700" y="397" text-anchor="middle">Magda</text>
+  </g>
+</svg>

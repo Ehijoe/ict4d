@@ -1,0 +1,11 @@
+.venv/
+site/
+__pycache__/
+
+# Source material: kept locally, not published
+CSC 584-ICT for Development.pdf
+pq1.jpg
+pq2.jpg
+
+# Local tool settings
+.claude/
